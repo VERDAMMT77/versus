@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222;
+    padding: 43px 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header-menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header-link {
+    color: #00D6B4;
+    font-size: 11px;;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.header-link:hover {
+    color: red;
+    transition: 0.3s linear;
+}
+
+.build {
+    padding: 226px 0 140px;
+    background: url("../assets/bg.png") center/cover no-repeat;
+}
+
+.build-content {
+    text-align: center;
+}
+
+.build-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53px;
+    margin-bottom: 29px;
+}
+
+.build-btn {
+    padding: 10px 26px;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid #00D6B4;
+
+    color: #00D6B4;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.work {
+    padding: 49px 0 101px;
+    background: #222;
+}
+
+.work-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.work-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 22px;
+}
+.work-card {
+    width: calc(33.33333% - 13.33333px);
+
+}
+
+.work-img {
+    width: 100%;
+}
+
+.footer {
+    background: #222222;
+    padding: 35px 0 37px;
+    text-align: center;
+}
+.footer-title{
+    color: #C2C2C2;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer-exp {
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+}
